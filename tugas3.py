@@ -12,9 +12,9 @@ if rata_rata < 40:
     print(f"Nilai: K (Rata-rata nilai tugas dan laporan di bawah 40.0: {rata_rata})")
 else:
     nilai_ujian = float(input("Masukkan nilai ujian: "))
-    bobot_tugas = nilai_tugas/50
+    bobot_tugas = nilai_tugas/25
     bobot_laporan = nilai_laporan/25
-    bobot_ujian = nilai_ujian/25
+    bobot_ujian = nilai_ujian/50
     total_nilai = (bobot_tugas + bobot_laporan + bobot_ujian) * 10
     if 80 <= total_nilai <=100:
         print(f"Nilai: A (Nilai akhir 80-100: {total_nilai})")
@@ -25,4 +25,4 @@ else:
     elif 50 <= total_nilai < 60:
         print(f"Nilai: D (Nilai akhir 50-60: {total_nilai})")
     elif total_nilai < 50:
-        print(f"Nilai: A (Nilai akhir di bawah 50: {total_nilai})")
+        print(f"Nilai: E (Nilai akhir di bawah 50: {total_nilai})")
