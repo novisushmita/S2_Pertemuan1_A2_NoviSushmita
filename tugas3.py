@@ -19,10 +19,10 @@ else:
     if 80 <= total_nilai <=100:
         print(f"Nilai: A (Nilai akhir 80-100: {total_nilai})")
     elif 70 <= total_nilai < 80:
-        print(f"Nilai: B (Nilai akhir 70-80: {total_nilai})")
+        print(f"Nilai: B (Nilai akhir 70-79: {total_nilai})")
     elif 60 <= total_nilai < 70:
-        print(f"Nilai: C (Nilai akhir 60-70: {total_nilai})")
+        print(f"Nilai: C (Nilai akhir 60-69: {total_nilai})")
     elif 50 <= total_nilai < 60:
-        print(f"Nilai: D (Nilai akhir 50-60: {total_nilai})")
+        print(f"Nilai: D (Nilai akhir 50-59: {total_nilai})")
     elif total_nilai < 50:
         print(f"Nilai: E (Nilai akhir di bawah 50: {total_nilai})")
